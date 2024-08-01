@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://geocities.restorativland.org/Area51/Orion/1313/images/starback.gif");
+    font-family: Arial; font-style: italic; font-weight: bold;
+    color: rgb(255, 242, 0);
+    text-shadow: 3px 2px #c00707;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height:100px;
+}
+.image_area img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.link {
+    font-family: Comic Sans MS;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    text-shadow:none
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
