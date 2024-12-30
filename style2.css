@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Gaegu';
-    src: url('/css/fonts/Gaegu-Regular.woff2') format('woff2');
+    src: url('/Gaegu-Regular.woff2') format('woff2');
 }
 @font-face {
     font-family: 'Gaegu';
-    src: url('/css/fonts/Gaegu-Bold.woff2') format('woff2');
+    src: url('/Gaegu-Bold.woff2') format('woff2');
     font-weight: bold;
 }
 @font-face {
     font-family: 'Gaegu';
-    src: url('/fonts/Gaegu-Light.woff2') format('woff2');
+    src: url('/Gaegu-Light.woff2') format('woff2');
     font-weight: 300;
 }
 
