@@ -53,7 +53,7 @@ footer {
 .content {
     flex: 1;
     display: flex;
-    width: 65vw;
+    width: 45vw;
     flex-direction: column;
     background-color: #2b1e1e;
     padding: 1.65rem;
@@ -81,7 +81,7 @@ footer {
     border: 1.5px solid #ffffff;
     border-radius: 2px;
     font-size: 1.2em;
-    width: 65vw;
+    width: 45vw;
     margin: 1%;
 }
 
