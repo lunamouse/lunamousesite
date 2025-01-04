@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Gaegu';
-    src: url('/Gaegu-Regular.woff2') format('woff2');
+    src: url('/css/fonts/Gaegu-Regular.woff2') format('woff2');
 }
 @font-face {
     font-family: 'Gaegu';
-    src: url('/Gaegu-Bold.woff2') format('woff2');
+    src: url('/css/fonts/Gaegu-Bold.woff2') format('woff2');
     font-weight: bold;
 }
 @font-face {
     font-family: 'Gaegu';
-    src: url('/Gaegu-Light.woff2') format('woff2');
+    src: url('/css/fonts/Gaegu-Light.woff2') format('woff2');
     font-weight: 300;
 }
 
@@ -24,9 +24,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    min-height:max-content;
     margin: 0;
-    background: url(ebgigyas.gif);
+    background: url(/images/ebgigyas.gif);
     color: #ffd5e3;
 }
 
@@ -57,7 +57,7 @@ footer {
     max-width: 65%;
     display: flex;
     flex-direction: column;
-    background-color: #2b1e1ef6;
+    background-color: #2b1e1e;
     padding: 1.65rem;
     border: 1.5px solid #ffffff;
     border-radius: 2px;
@@ -79,7 +79,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 0.5rem;
-    background: #682525;
+    background: #6d2222;
     border: 1.5px solid #ffffff;
     border-radius: 2px;
     font-size: 1.2em;
