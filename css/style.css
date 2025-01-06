@@ -104,3 +104,21 @@ footer {
     align-items: center;
     gap: 1rem;
 }
+
+/* Media Query for tablet and smaller devices */
+@media (max-width: 768px) {
+    .blogbox {
+        width: 95%; /* Increase width to fit smaller screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+        font-size: medium; /* Adjust font size */
+    }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+    .blogbox {
+        width: 100%; /* Full width on very small devices */
+        padding: 10px; /* Further reduce padding */
+        font-size: small; /* Smaller text for readability */
+    }
+}  
