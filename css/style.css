@@ -40,12 +40,8 @@ body {
 }
 
 header {
-    text-align: center;
     padding: 1rem;
     margin: 1%;
-    font-size: x-large;
-    color: #FFFFFF;
-    text-shadow: 2px 2px #000000;
     border-radius: 4px;
     background-color: transparent;
 }
@@ -123,6 +119,15 @@ footer {
 .content a {
     color: #E98B8B;
     text-decoration: underline;
+}
+
+.title-link {
+    font-family: 'Gaegu', Arial, Sans-serif;
+    font-size: xxx-large;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    text-decoration: none;
 }
 
 #blog {
