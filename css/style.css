@@ -130,6 +130,20 @@ footer {
     text-decoration: none;
 }
 
+.fill {
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: auto;
+}
+#about img {
+    align-items: center;
+    height: 100px;
+    width: 100px;
+
+
+}
+
 #blog {
     padding: 2rem;
     text-align: left;
@@ -172,12 +186,6 @@ footer {
 
 #blogpost {
     font-family: 'basiic', Arial, sans-serif;
-}
-.fill {
-    background-size: cover;
-    background-position: center;
-    width: 80%;
-    height: auto;
 }
 
 /* Responsive adjustments */
