@@ -87,13 +87,13 @@ footer {
     border: 1.5px solid #FFFFFF;
     border-radius: 4px;
     padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .navbar a {
     font-family: 'basiic', Arial, sans-serif;
     color: #FFD5E3;
-    font-weight: bold;
-    font-size: 1.2em;
     transition: color 0.3s ease;
     text-decoration: none;
 }
