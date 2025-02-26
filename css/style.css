@@ -44,6 +44,15 @@ header {
     margin: 1%;
     border-radius: 4px;
     background-color: transparent;
+    text-align: center;
+}
+
+header a {
+    font-family: 'Gaegu', Arial, Sans-serif;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+    text-decoration: none;
+    font-size: calc(2.5vw + 2.5vh); 
 }
 
 footer {
@@ -70,31 +79,31 @@ footer {
 
 .navbar {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    padding: 0.5rem 1rem;
     background: #6D2222;
     border: 1.5px solid #FFFFFF;
     border-radius: 4px;
-    font-size: 1.2em;
-    margin: 1rem 0;
+    padding: 0.5rem 1rem;
 }
 
 .navbar a {
     color: #FFD5E3;
     font-weight: 600;
-    text-decoration: none;
+    font-size: 1.2em;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-    color: #D83030;
+    color: #d15f5f;
 }
 
 .content {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     display: flex;
     flex-direction: column;
     background-color: #4A184D;
@@ -114,20 +123,13 @@ footer {
 .content hr {
     margin-bottom: 10px;
     border-color: #D83030;
+    font-size: calc(2.5vw + 2.5vh); 
+
 }
 
 .content a {
     color: #E98B8B;
     text-decoration: underline;
-}
-
-.title-link {
-    font-family: 'Gaegu', Arial, Sans-serif;
-    font-size: xxx-large;
-    color: #FFFFFF;
-    text-shadow: 2px 2px #000000;
-    text-align: center;
-    text-decoration: none;
 }
 
 .fill {
@@ -140,8 +142,6 @@ footer {
     align-items: center;
     height: 100px;
     width: 100px;
-
-
 }
 
 #blog {
@@ -186,28 +186,4 @@ footer {
 
 #blogpost {
     font-family: 'basiic', Arial, sans-serif;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .navbar, .content, .blog {
-        width: 95%;
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar, .content, .blog {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    .navbar {
-        font-size: 1em;
-    }
-
-    .content p {
-        font-size: 16px;
-    }
 }
