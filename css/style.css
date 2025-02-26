@@ -102,6 +102,10 @@ footer {
     color: #d15f5f;
 }
 
+ .content a:hover {
+    color: #ffffff;
+}
+
 .content {
     width: 100%;
     max-width: 1000px;
